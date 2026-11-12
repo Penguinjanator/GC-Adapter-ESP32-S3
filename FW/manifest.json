@@ -1,4 +1,4 @@
 {
-  "changelog": "6.14.2024",
-  "fw_version": 12
+  "changelog": "11.12.2026\n Fixes rumble turning on by itself in GameCube mode\n Hold a button for 1 second to change modes\n GameCube and Slippi are now one mode that detects a console or a computer",
+  "fw_version": 13
 }

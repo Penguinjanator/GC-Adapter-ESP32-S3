@@ -40,6 +40,11 @@ idf_component_register(
     "../common/include/utilities"
     )
 
+# The common code looks at USB setup packets by wrapping TinyUSB's event entry
+# point (common/adapter_tusb.c). GameCube mode needs this to tell a console
+# from a computer and pick the report rate.
+target_link_libraries(${COMPONENT_LIB} INTERFACE "-Wl,--wrap=dcd_event_handler")
+
 # Set the post-build script
 set(POST_BUILD_COMMAND python ${CMAKE_CURRENT_SOURCE_DIR}/manifest.py)
 add_custom_target(post_build

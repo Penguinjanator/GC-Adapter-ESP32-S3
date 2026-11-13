@@ -1,4 +1,4 @@
 {
-  "changelog": "11.12.2026\n Fixes rumble turning on by itself in GameCube mode\n Hold a button for 1 second to change modes\n Hold both buttons for 1 second to save the default mode; the LEDs blink to confirm\n GameCube and Slippi are now one mode that detects a console or a computer\n Switch mode: more accurate rumble and smaller fixes\n No more browser pop-up when the adapter is plugged in",
+  "changelog": "11.12.2026\n Fixes rumble turning on by itself in GameCube mode\n Hold a button for 1 second to change modes\n Hold both buttons for 1 second to save the default mode (the LEDs blink to confirm)\n GameCube and Slippi are now one mode that detects a console or a computer\n Switch mode: more accurate rumble and smaller fixes\n Switch mode on a computer: a controller plugged in after the adapter now shows up in Steam\n No more browser pop-up when the adapter is plugged in",
   "fw_version": 13
 }
